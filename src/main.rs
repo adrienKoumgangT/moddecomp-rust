@@ -19,7 +19,7 @@ fn read_dot_file(filename: &str) -> Result<String> {
 fn main() {
     println!("Hello, world!");
 
-    let filename = "files/two_structure_undirected_nodes_1000_edges_100206.dot";
+    let filename = "files/two_structure_undirected_nodes_100_edges_970.dot";
     let result_dot_content = read_dot_file(filename);
     let dot_content = result_dot_content.unwrap();
     
